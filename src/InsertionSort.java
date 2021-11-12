@@ -1,7 +1,7 @@
 public class InsertionSort {
 
     public static void main(String[] args) {
-        String[] arr = {"Atlanta", "New York", "Dallas", "San Francisco","Omaha", };
+        String[] arr = {"Atlanta", "New York", "Dallas", "San Francisco","Omaha" };
         String[] sortedArray;
         sortedArray = sort_sub(arr, arr.length);
         for (String s : sortedArray) {
